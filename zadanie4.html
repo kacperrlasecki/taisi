@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>zadanie4</title>
+</head>
+<body>
+<script>
+let tablica = [];
+let liczba = 10;
+for(let i=0; i<5; i++){
+    tablica[i] = [];
+    for(let j=0; j<5; j++){
+        tablica[i][j] = liczba;
+        liczba++;
+    }
+}
+for(let i=0; i<5; i++){
+    for(let j=0; j<5; j++){
+        document.write(tablica[i][j] + " ");
+    }
+    document.write("<br>");
+}
+</script>
+</body>
+</html>
